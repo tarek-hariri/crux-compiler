@@ -1,0 +1,37 @@
+
+test(a, b) {
+  printBool((a >= b));
+  println();
+  printBool((a <= b));
+  println();
+  printBool((a != b));
+  println();
+  printBool((a == b));
+  println();
+  printBool((a < b));
+  println();
+  printBool((a > b));
+  println();
+}
+main() {
+  i;
+  j;
+  i = 0;
+  loop {
+    if ((i > 4)) {
+      break;
+    } else {
+    }
+    j = 0;
+    loop {
+      if ((j > 4)) {
+        break;
+      } else {
+      }
+      test(i, j);
+      j = (j + 1);
+    }
+    i = (i + 1);
+  }
+}
+

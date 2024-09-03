@@ -1,0 +1,14 @@
+
+main() {
+  i;
+  i = 0;
+  loop {
+    if ((i >= 11)) {
+      break;
+    } else {
+    }
+    printChar(readChar());
+    i = (i + 1);
+  }
+}
+

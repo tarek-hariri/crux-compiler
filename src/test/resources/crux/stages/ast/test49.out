@@ -1,0 +1,54 @@
+
+a;
+bubblesort() {
+  swapped;
+  swapped = true;
+  loop {
+    if ((!swapped)) {
+      break;
+    } else {
+    }
+    swapped = false;
+    i;
+    i = 0;
+    loop {
+      if ((i >= 13)) {
+        break;
+      } else {
+      }
+      if ((a[i] > a[(i + 1)])) {
+        tmp;
+        tmp = a[i];
+        a[i] = a[(i + 1)];
+        a[(i + 1)] = tmp;
+        swapped = true;
+      } else {
+      }
+      i = (i + 1);
+    }
+  }
+}
+main() {
+  i;
+  i = 0;
+  loop {
+    if ((i >= 14)) {
+      break;
+    } else {
+    }
+    a[i] = (14 - i);
+    i = (i + 1);
+  }
+  bubblesort();
+  i = 0;
+  loop {
+    if ((i >= 14)) {
+      break;
+    } else {
+    }
+    printInt(a[i]);
+    println();
+    i = (i + 1);
+  }
+}
+

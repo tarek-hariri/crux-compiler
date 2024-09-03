@@ -1,0 +1,211 @@
+-------------------------------------------------------------------------------
+Test set: crux.CompilerStageTests
+-------------------------------------------------------------------------------
+Tests run: 50, Failures: 33, Errors: 15, Skipped: 0, Time elapsed: 667.763 s <<< FAILURE! - in crux.CompilerStageTests
+crux.CompilerStageTests.codegen  Time elapsed: 0.034 s  <<< ERROR!
+java.util.concurrent.ExecutionException: java.lang.Error: Assembling and linking failed
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:290)
+Caused by: java.lang.Error: Assembling and linking failed
+
+crux.CompilerStageTests.codegen  Time elapsed: 0.018 s  <<< ERROR!
+java.util.concurrent.ExecutionException: java.lang.Error: Assembling and linking failed
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:290)
+Caused by: java.lang.Error: Assembling and linking failed
+
+crux.CompilerStageTests.codegen  Time elapsed: 0.021 s  <<< ERROR!
+java.util.concurrent.ExecutionException: java.lang.Error: Assembling and linking failed
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:290)
+Caused by: java.lang.Error: Assembling and linking failed
+
+crux.CompilerStageTests.codegen  Time elapsed: 0.019 s  <<< ERROR!
+java.util.concurrent.ExecutionException: java.lang.Error: Assembling and linking failed
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:290)
+Caused by: java.lang.Error: Assembling and linking failed
+
+crux.CompilerStageTests.codegen  Time elapsed: 0.017 s  <<< ERROR!
+java.util.concurrent.ExecutionException: java.lang.Error: Assembling and linking failed
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:290)
+Caused by: java.lang.Error: Assembling and linking failed
+
+crux.CompilerStageTests.codegen  Time elapsed: 0.017 s  <<< ERROR!
+java.util.concurrent.ExecutionException: java.lang.Error: Assembling and linking failed
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:290)
+Caused by: java.lang.Error: Assembling and linking failed
+
+crux.CompilerStageTests.codegen  Time elapsed: 0.017 s  <<< ERROR!
+java.util.concurrent.ExecutionException: java.lang.Error: Assembling and linking failed
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:290)
+Caused by: java.lang.Error: Assembling and linking failed
+
+crux.CompilerStageTests.codegen  Time elapsed: 0.019 s  <<< ERROR!
+java.util.concurrent.ExecutionException: java.lang.Error: Assembling and linking failed
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:290)
+Caused by: java.lang.Error: Assembling and linking failed
+
+crux.CompilerStageTests.codegen  Time elapsed: 0.073 s  <<< ERROR!
+java.util.concurrent.ExecutionException: java.lang.Error: Assembling and linking failed
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:290)
+Caused by: java.lang.Error: Assembling and linking failed
+
+crux.CompilerStageTests.codegen  Time elapsed: 0.019 s  <<< ERROR!
+java.util.concurrent.ExecutionException: java.lang.Error: Assembling and linking failed
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:290)
+Caused by: java.lang.Error: Assembling and linking failed
+
+crux.CompilerStageTests.codegen  Time elapsed: 0.016 s  <<< ERROR!
+java.util.concurrent.ExecutionException: java.lang.Error: Assembling and linking failed
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:290)
+Caused by: java.lang.Error: Assembling and linking failed
+
+crux.CompilerStageTests.codegen  Time elapsed: 0.016 s  <<< ERROR!
+java.util.concurrent.ExecutionException: java.lang.Error: Assembling and linking failed
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:290)
+Caused by: java.lang.Error: Assembling and linking failed
+
+crux.CompilerStageTests.codegen  Time elapsed: 0.016 s  <<< ERROR!
+java.util.concurrent.ExecutionException: java.lang.Error: Assembling and linking failed
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:290)
+Caused by: java.lang.Error: Assembling and linking failed
+
+crux.CompilerStageTests.codegen  Time elapsed: 0.018 s  <<< ERROR!
+java.util.concurrent.ExecutionException: java.lang.Error: Assembling and linking failed
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:290)
+Caused by: java.lang.Error: Assembling and linking failed
+
+crux.CompilerStageTests.codegen  Time elapsed: 20.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Timeout for CodeGen for program crux/stages/codegen/test17.crx.
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:295)
+
+crux.CompilerStageTests.codegen  Time elapsed: 20.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Timeout for CodeGen for program crux/stages/codegen/test18.crx.
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:295)
+
+crux.CompilerStageTests.codegen  Time elapsed: 20 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Timeout for CodeGen for program crux/stages/codegen/test19.crx.
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:295)
+
+crux.CompilerStageTests.codegen  Time elapsed: 20 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Timeout for CodeGen for program crux/stages/codegen/test20.crx.
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:295)
+
+crux.CompilerStageTests.codegen  Time elapsed: 20.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Timeout for CodeGen for program crux/stages/codegen/test21.crx.
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:295)
+
+crux.CompilerStageTests.codegen  Time elapsed: 20.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Timeout for CodeGen for program crux/stages/codegen/test22.crx.
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:295)
+
+crux.CompilerStageTests.codegen  Time elapsed: 20.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Timeout for CodeGen for program crux/stages/codegen/test23.crx.
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:295)
+
+crux.CompilerStageTests.codegen  Time elapsed: 20.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Timeout for CodeGen for program crux/stages/codegen/test24.crx.
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:295)
+
+crux.CompilerStageTests.codegen  Time elapsed: 20.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Timeout for CodeGen for program crux/stages/codegen/test25.crx.
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:295)
+
+crux.CompilerStageTests.codegen  Time elapsed: 20.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Timeout for CodeGen for program crux/stages/codegen/test26.crx.
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:295)
+
+crux.CompilerStageTests.codegen  Time elapsed: 20.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Timeout for CodeGen for program crux/stages/codegen/test27.crx.
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:295)
+
+crux.CompilerStageTests.codegen  Time elapsed: 20.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Timeout for CodeGen for program crux/stages/codegen/test28.crx.
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:295)
+
+crux.CompilerStageTests.codegen  Time elapsed: 20.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Timeout for CodeGen for program crux/stages/codegen/test29.crx.
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:295)
+
+crux.CompilerStageTests.codegen  Time elapsed: 20.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Timeout for CodeGen for program crux/stages/codegen/test30.crx.
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:295)
+
+crux.CompilerStageTests.codegen  Time elapsed: 20.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Timeout for CodeGen for program crux/stages/codegen/test31.crx.
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:295)
+
+crux.CompilerStageTests.codegen  Time elapsed: 20.016 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Timeout for CodeGen for program crux/stages/codegen/test32.crx.
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:295)
+
+crux.CompilerStageTests.codegen  Time elapsed: 20.005 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Timeout for CodeGen for program crux/stages/codegen/test33.crx.
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:295)
+
+crux.CompilerStageTests.codegen  Time elapsed: 20.007 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Timeout for CodeGen for program crux/stages/codegen/test34.crx.
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:295)
+
+crux.CompilerStageTests.codegen  Time elapsed: 6.823 s  <<< ERROR!
+java.util.concurrent.ExecutionException: java.lang.Error: Assembling and linking failed
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:290)
+Caused by: java.lang.Error: Assembling and linking failed
+
+crux.CompilerStageTests.codegen  Time elapsed: 20.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Timeout for CodeGen for program crux/stages/codegen/test36.crx.
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:295)
+
+crux.CompilerStageTests.codegen  Time elapsed: 20.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Timeout for CodeGen for program crux/stages/codegen/test37.crx.
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:295)
+
+crux.CompilerStageTests.codegen  Time elapsed: 20.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Timeout for CodeGen for program crux/stages/codegen/test38.crx.
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:295)
+
+crux.CompilerStageTests.codegen  Time elapsed: 20.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Timeout for CodeGen for program crux/stages/codegen/test39.crx.
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:295)
+
+crux.CompilerStageTests.codegen  Time elapsed: 20.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Timeout for CodeGen for program crux/stages/codegen/test40.crx.
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:295)
+
+crux.CompilerStageTests.codegen  Time elapsed: 20.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Timeout for CodeGen for program crux/stages/codegen/test41.crx.
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:295)
+
+crux.CompilerStageTests.codegen  Time elapsed: 20.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Timeout for CodeGen for program crux/stages/codegen/test42.crx.
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:295)
+
+crux.CompilerStageTests.codegen  Time elapsed: 20.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Timeout for CodeGen for program crux/stages/codegen/test43.crx.
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:295)
+
+crux.CompilerStageTests.codegen  Time elapsed: 20.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Timeout for CodeGen for program crux/stages/codegen/test44.crx.
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:295)
+
+crux.CompilerStageTests.codegen  Time elapsed: 20.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Timeout for CodeGen for program crux/stages/codegen/test45.crx.
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:295)
+
+crux.CompilerStageTests.codegen  Time elapsed: 20.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Timeout for CodeGen for program crux/stages/codegen/test46.crx.
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:295)
+
+crux.CompilerStageTests.codegen  Time elapsed: 20.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Timeout for CodeGen for program crux/stages/codegen/test47.crx.
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:295)
+
+crux.CompilerStageTests.codegen  Time elapsed: 20.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Timeout for CodeGen for program crux/stages/codegen/test48.crx.
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:295)
+
+crux.CompilerStageTests.codegen  Time elapsed: 20.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Timeout for CodeGen for program crux/stages/codegen/test49.crx.
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:295)
+
+crux.CompilerStageTests.codegen  Time elapsed: 20 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Timeout for CodeGen for program crux/stages/codegen/test50.crx.
+	at crux.CompilerStageTests.lambda$codegen$9(CompilerStageTests.java:295)
+

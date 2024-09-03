@@ -1,0 +1,33 @@
+Crux Program has no type errors.
+
+main() {
+  int a;
+  /*int*/ a = /*int*/ 0;
+  int b;
+  /*int*/ b = /*int*/ 0;
+  loop {
+    if (/*bool*/ (/*int*/ a >= /*int*/ 3)) {
+      break;
+    } else {
+    }
+    if (/*bool*/ true) {
+      if (/*bool*/ true) {
+        loop {
+          if (/*bool*/ (/*int*/ b >= /*int*/ 3)) {
+            break;
+          } else {
+          }
+          printInt(/*int*/ 5);
+          /*int*/ b = /*int*/ (/*int*/ b + /*int*/ 1);
+        }
+      } else {
+        printInt(/*int*/ 5);
+      }
+    } else {
+    }
+    printInt(/*int*/ 5);
+    /*int*/ a = /*int*/ (/*int*/ a + /*int*/ 1);
+  }
+  printInt(/*int*/ 5);
+}
+

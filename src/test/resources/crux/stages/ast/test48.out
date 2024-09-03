@@ -1,0 +1,23 @@
+
+main() {
+  i;
+  i = 0;
+  a;
+  b;
+  a = 0;
+  b = 1;
+  loop {
+    if ((i >= 10)) {
+      break;
+    } else {
+    }
+    printInt(b);
+    println();
+    c;
+    c = (a + b);
+    a = b;
+    b = c;
+    i = (i + 1);
+  }
+}
+

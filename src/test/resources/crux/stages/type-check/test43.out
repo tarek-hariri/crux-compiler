@@ -1,0 +1,21 @@
+Crux Program has no type errors.
+
+validReturn1(int a) {
+  if (/*bool*/ true) {
+    if (/*bool*/ false) {
+      /*int*/ a = /*int*/ 3;
+    } else {
+      loop {
+        return /*int*/ a;
+      }
+    }
+    return /*int*/ 4;
+  } else {
+    return /*int*/ a;
+  }
+}
+main() {
+  printInt(/*int*/ 3);
+  printInt(validReturn1(/*int*/ 6));
+}
+
